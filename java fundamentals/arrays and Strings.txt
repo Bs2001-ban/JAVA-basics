@@ -1,0 +1,158 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	 // System.out.println("Hello World");
+	 // array is the list of same type elements
+	 //int[] arr=new int[]{2,3,4,5,6};
+	 //int[] arr= new int[6];  //print -->{0,0,0,0,0,0};
+	 //int[]  arr={2,3,4};
+	 
+	 //local values must be initialized before use it does not have any default value
+	 //take an array from user search for agiven number and return that Index
+	 
+// 	 Scanner sc =new Scanner (System.in);
+// 	 int n =sc.nextInt();
+// 	 int[] arr =new int[n];
+// 	 for(int i=0;i<n;i++)
+// 	 {
+// 	     arr[i]=sc.nextInt();
+// 	 }
+	 
+// 	 int ip1= sc.nextInt();
+// 	 int index=0,flag=0;
+// 	 for(int i=0;i<arr.length;i++)
+// 	 {
+// 	     if(arr[i]==ip1){
+	         
+// 	         index=i;
+// 	         flag =1;
+// 	         break;
+// 	     }
+// 	 }
+// 	 if(flag ==1)
+// 	 System.out.println(index);
+// 	 else
+// 	 System.out.println("not found");
+	 
+	 
+	 //2D array concept::-->
+	 //int [][] arr = new int[3][3]  // creates 3X3 matrix
+	 
+// 	 Scanner sc =new Scanner(System.in);
+// 	 int row=sc.nextInt();
+// 	 int col=sc.nextInt();
+// 	 int [][] arr = new int[row][col];
+//use inner outer loop to take ip and show output
+
+//linear search of a user defined number and return the index of it
+
+//strings --->
+
+//String name ="Sourav Ban";
+// Scanner sc = new Scanner(System.in);
+// String name = sc.next();
+// String name 1 =sc.nextLine();
+// while(sc.hasNext())
+// {
+//  System.out.println(sc.hasNext());
+//  it will take the user input till users permission
+// }
+// it has a delimiter keyword
+//s1.delimiter---> shows the delimitor
+//concatenation
+// String name ="x";
+// String name1= "y";
+// System.out.println(name + " "+ name1);
+//name1.length();
+//name1.charAt(0) ---> 1--->y
+//compare --- s1.compareTo(s2);
+// 3 cases s1>s2-->+ve value or s1==s2---> 0 or s1<s2----ve
+//check the lexographical comparison
+
+//if(s1.compareTo(s1)==0) print equal else not equal;
+//if(s1 == s2)almost same but if((new String("x")==new String("y"))
+//doesnt match
+
+// String st = "I am Sourav Bandyopadhyay";
+// //st.substring(beginning index,ending index);
+
+// String st1= st.substring(1,st.length());
+// System.out.println(st1);
+//String st1= st.substring(1);---> till end 
+// Strings in java are immutable-->
+//parsing concept--->
+
+//int x =Integer.parseInt("9");
+//      double c = Double.parseDouble("5");
+  //    int b = Integer.parseInt("444",16);
+
+//Integer.valueOf() returns an Integer object while Integer.parseInt() returns a primitive int.
+
+// String s = "77";
+  
+//         // Primitive int is returned
+//         int str = Integer.parseInt(s);
+//         System.out.print(str);
+  
+//         // Integer object is returned
+//         int str1 = Integer.valueOf(s);
+//         System.out.print(str1);
+// to modify the string we use  StringBuilder class 
+//StringBuilder sb = new StringBuilder("Sourav");
+
+
+//char at 0  sb.charAt(0)
+//set character --- sb.setCharAt(index,'char');
+//System.out.println(sb);
+//insert func 
+//sb.insert(index,'char');
+// same as delete sb.delete(starting index,ending index);
+//using append to add the string;
+// StringBuilder sb =new StringBuilder("h");
+// sb.append("e");
+// sb.append("Y");
+// System.out.println(sb);
+// System.out.println(sb.length());
+// reverse the string 
+
+// Scanner sc =new Scanner(System.in);
+// String name = sc.nextLine();
+// StringBuilder sb = new StringBuilder(name);
+// //System.out.println(sb.reverse());
+
+// for(int i=0;i<sb.length()/2;i++){
+//   int  fi= i;
+//  int  bi=sb.length()-1-i;
+//  char b =sb.charAt(bi);
+//  char f=sb.charAt(fi);
+//     sb.setCharAt(fi,b);
+//     sb.setCharAt(bi,f);
+    
+// }
+// System.out.println(sb);
+
+
+///////////////another way.....
+// Scanner sc =new Scanner(System.in);
+// String name = sc.nextLine();
+// StringBuilder sb = new StringBuilder(name);
+// //System.out.println(sb.reverse());
+
+// for(int i=0;i<sb.length()/2;i++){
+//   int  fi= i;
+//  int  bi=sb.length()-1-i;
+
+//     sb.setCharAt(fi,name.charAt(bi));
+//     sb.setCharAt(bi,name.charAt(fi));
+    
+// }
+// System.out.println(sb);
+
+
+
+
+
+
+	}
+}

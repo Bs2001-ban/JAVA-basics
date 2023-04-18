@@ -1,0 +1,89 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+
+public class Main
+{
+//	public static void main(String[] args) {
+	//	System.out.println("Hello World");
+	
+  /////print a given name in a function---->>
+  
+  
+    // Scanner sc =new Scanner (System.in);
+    // String name =sc.nextLine();
+     //function type takes something return nothing---
+     //printMyname(name);
+//	}
+// 	public static void printMyname(String name){
+	    
+// 	    System.out.println("My name is " + " "+ name );
+     //return ;
+// 	} 
+
+//add two number using function-->>
+
+// 		public static void main(String[] args){
+		    
+// 		    Scanner sc = new Scanner(System.in);
+// 		    int x =sc.nextInt();
+// 		    int y = sc.nextInt();
+// 		    int add = sumOfTwoNumbers(x,y);
+// 		    System.out.println(add);
+		    
+		    
+// 		}
+		
+// 		public static int sumOfTwoNumbers(int x,int y){
+// 		    return (x+y);
+// 		}
+
+// find factorial of a number -->>
+	
+// 	public static void main(String[] args){
+	    
+// 	    Scanner sc =new Scanner(System.in);
+// 	    int x =sc.nextInt();
+// 	    int ans =factorial(x);
+// 	    System.out.println(ans);
+	     
+// 	   }
+	   
+// 	   public static int factorial(int n){
+    //  if(n<0){
+    //      System.out.println("invalid exp");
+    //      return;
+    //  }
+// 	       int fact =1;
+// 	       for(int i=1;i<=n;i++)
+// 	       {fact=fact*i;}
+// 	        return fact;
+// 	   }
+
+//1.avaerage of 3 numbers 
+// 2.sum of odd numbers from 1 to n;
+//algo like condition of taking sum for(int i=1;i<n;i++){if(i%2==0) sum+=i;}
+//3.greater of two;
+//4.take radius and calculate area
+// 5.eligible for voting 
+//algo goes like use flag variable otherwise print through the method
+//6.infinite loop using while 
+//int x=1;while(x){looping};
+//7.create power function----Math.pow(x,y)
+//int power =1 ;for(int i=1;i<=y;i++){power = power * x}//while(y-->0) power =power*x;
+//8.WAP to enter the number till the user wants and at the end print no of +ve -ve and zeros;
+
+//10.gcd of two numbers 
+//9.fibonacci series 
+
+
+
+
+public static void main(String[] args){
+
+
+
+
+}
+	   
+}

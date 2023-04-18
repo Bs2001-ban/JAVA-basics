@@ -1,0 +1,113 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+// class Pen{
+//     String color;
+//     String Manufac;
+//     int penNo;
+//     public void note()
+//     {
+//     System.out.println("it takes notes");    
+    
+//     }
+    
+//     public void colorx(){
+//         System.out.println(this.color);
+//     }
+// }
+
+
+class Student{
+    
+     String name;
+     int age;
+     int DOB;
+     
+     public void mo(){
+         System.out.println(this.name +" "+ this.age );
+     }
+    
+}
+
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		
+		//System.out.println("Hello World");
+		
+// 		Pen p1= new Pen();
+// 		p1.color="blue";
+// 		p1.Manufac="link";
+// 		p1.penNo=1;
+// 		p1.note();
+// 		p1.colorx();
+		
+		
+// 		Pen p2= new Pen();
+// 		p2.color="red";
+// 		p2.Manufac="writometer";
+// 		p2.penNo=2;
+// 		p2.colorx();
+		
+		
+		Student s1= new Student();
+		s1.name="sourav";
+		s1.age =18;
+		s1.mo();
+		
+		
+		// constructor is to create an object and this keyword is actually pointing to the the class attributes and 
+		//new keyword crates an memory in heap to store the object 
+		//3 types of constructor --1 .parameterized constructor created in main function and 2. non parameterized constructor which is created in that particular class
+                //p.constructor does take arguments and non parameteried constructor takes arguments""" 
+		//and copy constructor ;
+		
+		
+		//these are  parameterized constructor example---->> class 1 pen and class 2 student
+		
+	}
+}
+
+
+
+class Student{
+    
+    String name;
+    int age;
+    int dob;
+    
+    Student(String name1,int age1 ,int dob1){
+        this.name=name1;
+        this.age=age1;
+        this.dob=dob1;
+    }
+    public void printInfo()
+    {
+        System.out.println(this.name + " "+ this.age +" "+this.dob);
+        // wrong line ---->System.out.println(name1 + age1 + dob1);
+    }
+    
+}
+
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	//	System.out.println("Hello World");
+	Student sourav=new Student("Sourav",22,10012001);
+	sourav.printInfo();
+	}
+}
+
+
+// symbol:   variable dob1
+//  location: class Student
+

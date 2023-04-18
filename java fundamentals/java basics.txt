@@ -1,0 +1,101 @@
+import java.util.*;
+import java.io.*;
+public class Main
+{
+	public static void main(String[] args) {
+// 		System.out.print("Hello World");
+// 		System.out.println("New World ");
+// 		System.out.print("New World 1\n");
+		
+		//printing in new ways --->>
+		
+//Star  printing like System.out.println("*\n**\n***\n");
+
+
+//variables --->>
+//string name ,int age,double m;
+//data types there are 8 primitive data types are in java these are byte short char boolean int long float double 
+//non primitive datatypes are string ,array,objects.....
+ 
+ 
+ 
+ 
+ 
+ //     *
+// 		**
+// 		***
+// 		**** --> pattern
+//   Scanner sc =new Scanner(System.in);
+//   int n =sc.nextInt();
+//   for(int i=1;i<=n;i++){
+//       for(int j=1;j<=i;j++)
+//       {
+//           System.out.print("*");
+//       }
+//       System.out.println();
+//   }
+//next() method takes single token 
+//nextLine() method takes all the tokens ...takes the whole nextLine
+
+//take 2 variables 'a' and 'b' nd print their Sum
+// 		Scanner sc =new Scanner(System.in);
+// 		int x =sc.nextInt();
+// 		int y = sc.nextInt();
+// 		int sum= x+y;
+// 		System.out.println(sum);
+	//if -else condition else if condition  
+	
+	// even odd matching algo is if(x%2==0)-->even else odd
+	//switchcase:---
+	//program to print 1 for hello 2 for hi and 3 for namaste 
+		//can be done using if else if and also switch case 
+// 		Scanner sc = new Scanner (System.in);
+// 		int n = sc.nextInt();
+// 		switch(n){
+// 		    case 1 : System.out.println("Hello");
+// 		    break;
+// 		    case 2 : System.out.println("Hi");
+// 		    break;
+// 		    case 3: System.out.println("Namaste");
+           //break;
+// 		    default:
+// 		    System.out.println("no match found");
+// 		}
+//loop and flow control --->>
+//for(initialization; condition;updation)
+//same as previous for do while this is exit control loop and while is  entry control loop--->>
+//post increment and pre increment is important ----
+//like in for(int i=0;i<n;i++):---> that means firstinitialize then start i=0;check the condition and print then update the value but for pre increment first update the value then print;
+// for(int i=0;i<5;++i)  and for(int i =0;i<8;i++) are same this case {
+//     System.out.println(i);
+
+// }
+// but for a=x++ or a=++x is different as operator works on different variables 
+// int i=3;
+// while(--i>0){
+//     System.out.println(i);  //value ,decremeted ,print 2 1 0
+// }
+// boolean x=true;
+// if(0>0)
+// System.out.println(x);
+// else 
+// System.out.println(false);//o/p false
+ 
+  //sum of first n natural numbers --->>
+
+//int sum=1 for(int i=1;i<=n;i++){sum+=i;} print(sum);
+   
+//double a = 0.9;
+ 
+    // Setting the precision
+    // to 20 places
+   // System.out.println(
+     // String.format("%.20f", a));
+ 
+//double a = 30;
+  
+       // System.out.println(Math.sqrt(a));
+//same as power function.....
+	}
+ }
+
